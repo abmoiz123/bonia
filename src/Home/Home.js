@@ -7,6 +7,11 @@ import {
 import Img from '../assets/Set 1/1-01.png'
 import './Home.css'
 function Home() {
+    const d = new Date();
+    // d.getMonth() + 1;
+    d.getDate();
+    d.getFullYear();
+
     return (
         // <CContainer fluid className="mainDivContainer">
         //     <CRow className="row">
@@ -35,18 +40,55 @@ function Home() {
             </div>
             <div className="mainDiv2">
                 <div className="box_div">
-                    <div className="box"></div>
-                    <div className="box"></div>
-                    <div className="box"></div>
-                    <div className="box"></div>
-                    <div className="box"></div>
-                    <div className="box"></div>
-                    <div className="box"></div>
-                    <div className="box"></div>
-                    <div className="box"></div>
-                    <div className="box"></div>
-                    <div className="box"></div>
-                    <div className="box"></div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">{d.getDate()}</p>
+                        <p className="today">Today</p>
+                    </div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">08</p>
+                    </div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">09</p>
+                    </div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">10</p>
+                    </div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">11</p>
+                    </div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">12</p>
+                    </div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">13</p>
+                    </div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">14</p>
+                    </div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">15</p>
+                    </div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">16</p>
+                    </div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">17</p>
+                    </div>
+                    <div className="box">
+                        <p className="month">Dec</p>
+                        <p className="date">18</p>
+                    </div>
                 </div>
             </div>
         </div>

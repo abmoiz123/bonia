@@ -3,7 +3,7 @@
     padding: 0 !important;
     height: 100%;
     /* overflow: hidden !important; */
-    background-color: blue;
+    /* background-color: blue; */
 }
 .mainDivRow {
     display: flex;
@@ -17,6 +17,8 @@
 }
 .sideBar {
     width: 38%;
+    background-color: burlywood;
+
     /* height: 50% !important; */
 }
 .imageDiv {
@@ -35,15 +37,44 @@
     bottom: 0;
     height: 17vh;
     padding: 0px 15px;
-    background-color: aquamarine;
+    background-color: #bb4e3a;
 }
 .box_div {
     display: flex;
     flex-direction: row;
 }
 .box {
-    background-color: black;
+    /* background-color: black; */
     width: 8.33%;
     height: 17vh;
-    border: 1px solid white;
+    /* border: 1px solid white; */
+}
+.box p {
+    font-weight: lighter;
+    opacity: 0.5;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.month {
+    /* position: relative;
+    top: 0px; */
+    font-size: 15px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.date {
+    position: relative;
+    bottom: 0;
+    top: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 40px;
+    font-weight: 400 !important;
+}
+.today {
+    font-size: 15px;
+    padding: 0 !important;
+    margin: 0 !important;
 }
