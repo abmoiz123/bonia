@@ -99,7 +99,7 @@ function Home() {
                                 <div key={v.id} className="activebox">
                                     <span className="activemonth">Dec</span>
                                     <span className="activedate">{v.date}</span>
-                                    <span className="activetoday">Today!</span>
+                                    <span className="today">Today!</span>
                                 </div>
                             ) :
                                 v.date >= date ? (

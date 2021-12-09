@@ -111,30 +111,18 @@ p {
 .month {
     font-weight: 500;
     font-size: 13px;
-    line-height: 20px;
+    line-height: 13px;
     padding: 0 !important;
     margin: 0 !important;
 }
 
 .date {
-    /* position: relative;
-    bottom: 0; */
-    /* top: 0; */
     padding: 0 !important;
     margin: 0 !important;
-    font-size: 55px;
-    line-height: 55px;
+    font-size: 40px;
+    line-height: 40px;
     font-weight: 400 !important;
 }
-
-.today {
-    color: whitesmoke;
-    font-size: 15px;
-    line-height: 25px;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
 .activemonth {
     font-size: 15px;
     line-height: 20px;
@@ -150,7 +138,7 @@ p {
     font-weight: 400 !important;
 }
 
-.activetoday {
+.today {
     color: whitesmoke;
     font-size: 15px;
     line-height: 25px;
