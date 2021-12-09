@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;500&display=swap');
+
+p {
+    margin: 0px !important;
+}
+
 .mainDivContainer {
     margin: 0 !important;
     padding: 0 !important;
@@ -5,6 +11,7 @@
     /* overflow: hidden !important; */
     /* background-color: blue; */
 }
+
 .mainDivRow {
     display: flex;
     flex-direction: row;
@@ -15,21 +22,44 @@
     min-height: 100vh;
     /* overflow: hidden !important; */
 }
+
 .sideBar {
     width: 38%;
-    background-color: burlywood;
+    background-color: #e0c08f;
 
     /* height: 50% !important; */
 }
+
+.scrolldown-text {
+    font-family: 'Spectral', serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sidebar-text {
+    font-family: 'Spectral', serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .imageDiv {
     width: 62%;
     height: 100%;
     /* overflow: hidden; */
 }
+
 .imageDiv img {
     width: 100%;
     height: 100% !important;
 }
+
 .mainDiv2 {
     position: fixed;
     width: 100%;
@@ -39,42 +69,91 @@
     padding: 0px 15px;
     background-color: #bb4e3a;
 }
+
 .box_div {
     display: flex;
     flex-direction: row;
 }
-.box {
-    /* background-color: black; */
+
+.box, .pastbox, .activebox {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
     width: 8.33%;
     height: 17vh;
-    /* border: 1px solid white; */
 }
-.box p {
-    font-weight: lighter;
+
+.box span {
+    width: 100%;
+    color: #ca7d6f;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.pastbox span {
     opacity: 0.5;
+    width: 100%;
+    color: #7a3020;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.activebox span {
+    width: 100%;
     color: whitesmoke;
     text-align: center;
     padding: 0 !important;
     margin: 0 !important;
 }
+
 .month {
-    /* position: relative;
-    top: 0px; */
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
     padding: 0 !important;
     margin: 0 !important;
 }
+
 .date {
-    position: relative;
-    bottom: 0;
-    top: 0;
+    /* position: relative;
+    bottom: 0; */
+    /* top: 0; */
     padding: 0 !important;
     margin: 0 !important;
-    font-size: 40px;
+    font-size: 55px;
+    line-height: 55px;
     font-weight: 400 !important;
 }
+
 .today {
+    color: whitesmoke;
     font-size: 15px;
+    line-height: 25px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.activemonth {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.activedate {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 400 !important;
+}
+
+.activetoday {
+    color: whitesmoke;
+    font-size: 15px;
+    line-height: 25px;
     padding: 0 !important;
     margin: 0 !important;
 }
