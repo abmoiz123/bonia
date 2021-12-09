@@ -1,0 +1,49 @@
+.mainDivContainer {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    /* overflow: hidden !important; */
+    background-color: blue;
+}
+.mainDivRow {
+    display: flex;
+    flex-direction: row;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
+    /* overflow: hidden !important; */
+}
+.sideBar {
+    width: 38%;
+    /* height: 50% !important; */
+}
+.imageDiv {
+    width: 62%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+.imageDiv img {
+    width: 100%;
+    height: 100% !important;
+}
+.mainDiv2 {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    height: 17vh;
+    padding: 0px 15px;
+    background-color: aquamarine;
+}
+.box_div {
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    background-color: black;
+    width: 8.33%;
+    height: 17vh;
+    border: 1px solid white;
+}
